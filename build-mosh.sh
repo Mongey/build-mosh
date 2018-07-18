@@ -2,9 +2,8 @@
 
 pwd=`pwd`
 PROTOBUFDIR="$pwd/protobuf-release"
-XCODEPATH=`xcode-select --print-path`
+XCODEPATH=$(xcode-select --print-path)
 PLATFORMPATH="$XCODEPATH/Platforms"
-TOOLSPATH="$XCODEPATH/Toolchains/XcodeDefault.xctoolchain/usr/bin"
 
 export IPHONEOS_DEPLOYMENT_TARGET="9.0"
 
